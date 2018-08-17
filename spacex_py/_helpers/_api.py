@@ -1,6 +1,6 @@
 import requests
 
-def _get(endpoint, method, query={}):
+def _get(endpoint, method="", query={}):
     """GET request to the SpaceX API
 
         Sends HTTP request to the SpaceX API given a

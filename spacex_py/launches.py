@@ -1,6 +1,5 @@
 from ._helpers._api import _get
 
-# Launches
 def get_launches(method="", **query):
     """Gets launches based on query strings
 
