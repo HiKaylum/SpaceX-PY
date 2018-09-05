@@ -5,7 +5,7 @@ def get_rockets():
     return got_rockets
 
 def get_rockets_by_method():
-    got_rockets, _ = rockets.get_rockets('bfr')
+    got_rockets, _ = rockets.get_rockets("bfr")
     return got_rockets
 
 def test_get_rockets():

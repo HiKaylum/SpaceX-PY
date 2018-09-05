@@ -9,11 +9,11 @@ def get_capsule_parts():
     return got_capsule_parts
 
 def get_capsule_part_by_serial():
-    got_capsule_part, _ = capsules.get_capsule_parts('C201')
+    got_capsule_part, _ = capsules.get_capsule_parts("C201")
     return got_capsule_part
 
 def get_capsule_part_by_query():
-    got_capsule_parts, _ = capsules.get_capsule_parts(status='active')
+    got_capsule_parts, _ = capsules.get_capsule_parts(status="active")
     return got_capsule_parts
 
 def test_get_capsules():
