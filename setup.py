@@ -11,7 +11,7 @@ setuptools.setup(
     description="Python wrapper for the SpaceX API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="hhttps://github.com/HiKaylum/SpaceX-PY",
+    url="https://github.com/HiKaylum/SpaceX-PY",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
