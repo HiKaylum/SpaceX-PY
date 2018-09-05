@@ -5,3 +5,5 @@ install:
   - pip install -r requirements.txt
 script:
   - pytest
+before_install:
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
