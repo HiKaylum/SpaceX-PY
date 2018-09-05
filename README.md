@@ -24,7 +24,7 @@ from spacex_py import launches
 # Returns a tuple
 got_launches, header = launches.get_launches()
 
-# PyLint being a pain about heade? use:
+# PyLint being a pain about header? use:
 got_launches, _ = launches.get_launches()
 
 print(got_launches)
