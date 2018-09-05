@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="spacex_py",
-    version="0.0.1",
+    version="1.0.0",
     author="Kaylum Lally",
     author_email="kaylum@hikaylum.me",
     description="Python wrapper for the SpaceX API",
