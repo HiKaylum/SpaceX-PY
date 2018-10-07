@@ -11,7 +11,7 @@ def get_launches(method="", **query):
         method : str (optional)
             the method used for the request
         query : keyword args
-            keyword args based on the API query stings
+            keyword args based on the API query strings
 
     Returns
     -------
